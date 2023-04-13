@@ -1,0 +1,561 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+*{
+    font-family: arial;
+}
+
+div.maincontent{
+    height:1060px;
+    background-image :url('gaming photos/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    
+}
+div.joinnavbar{
+    background-color: black;
+}
+div.navbar a{
+    color: whitesmoke;
+    margin:20px;
+    text-decoration: none;
+}
+
+div.navbar a.join{
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid blue;
+    background-color: transparent;
+    color:whitesmoke;
+    
+}
+
+div.details {
+    text-align: center;
+    padding-top: 150px;
+    color: whitesmoke;
+}
+
+div.details button {
+    padding: 15px;
+    border-radius: 8px;
+    background-color:whitesmoke;
+    color:darkturquoise;
+    border: none;
+}
+
+div.upcoming {
+    background-color: #4f3455;
+    margin-top: 0px;
+    padding-top: 50px;
+    height: 450px;
+}
+
+div.games {
+    display: flex;
+    width: 80%;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:100px;
+}
+
+div.game {
+    text-align: center;
+}
+
+div.game div.fortnite {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('gaming%20photos/j.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+div.game div.batman {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('gaming%20photos/77.jpg');
+    background-size: cover;
+    background-position: center;
+}
+div.game div.callofduty {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('gaming%20photos/download.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+div.game div.pes {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('gaming%20photos/202.png');
+    background-size: cover;
+    background-position: center;
+}
+div.game div.spiderman {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('gaming%20photos/spiderman-pc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+div.upcoming h1 {
+    text-align: center;
+}
+
+
+
+div.maingame {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+div.maingame button {
+    padding: 15px;
+    border-radius: 9px;
+    background-color:aqua;
+    color:whitesmoke;
+    border: none;
+} 
+
+div.maingame img {
+    margin-right: -100px;
+    border-radius: 20px;
+}
+
+.postscontent{
+    background:#2e2f7f; 
+}
+
+div.postscontent h1,div.postscontent p{
+    text-align: center;
+}
+
+div.posts {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.post {
+    margin:28px;
+    background-color: black;
+    color:white;
+    border-radius:8px;
+}
+div.post p{
+    font-size: 15px;
+    text-align: left;
+}
+
+div.post p,div.post h5{
+    display: inline-block;
+}
+    
+
+
+div.post h2,div.post p,div.post h5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.post1 div.img,div.post2 div.img,div.post3 div.img{
+    background-image: url("gaming photos/new%20games.jpg");
+    height: 150px;
+    background-position: center;
+    background-size:cover;
+    border-radius:8px; 
+}
+    
+div.post2 div.img{
+    background-image: url("gaming photos/less%20expinsive.jpg");
+}
+div.post3 div.img{
+    background-image: url("gaming photos/errors%20fixed.jpg");
+}
+
+div.testis{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.test h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+div.testi {
+    text-align: center;
+    margin: 25px;
+    background-color:black;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+div.test{
+    background-color:#2e2f7f;
+    margin-top: -21px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+div.testi1 div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url('gaming photos/gamer.png');
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+}
+div.testi2 div.img{
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px;
+    background-image: url('gaming photos/user.png');
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+}
+div.postscontent{
+    background-color: #2e2f7f;
+    margin-top: 30px;
+    padding-top: 50px;
+    height: 600px;
+}
+
+.pricing h2{
+    text-align:center;
+}
+
+.prices{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.price{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 30%;
+    background-color: darkcyan;
+    color:whitesmoke;
+    margin: 8px;
+    border-radius: 10px;
+}
+.price button{
+    padding: 15px;
+    border-radius: 9px;
+    background-color:transparent;
+    color:whitesmoke;
+    border: 3px solid black;
+}
+.planprice{
+    background-color: darkblue;
+    padding: 15px;
+}
+.planprice h3{
+    margin: 0;
+}
+.joinform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 90px;
+    width: 60%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.joinform .image{
+    width: 35%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.joinform .form{
+    width: 65%;
+}
+.joinform .image{
+    background-image: url('gaming%20photos/54.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+}
+
+form input,form button{
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    display: block;
+    margin: 10px;
+}
+form {
+    width:60%; 
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    padding-top: 100px;
+}
+
+form button{
+    background-color: blue;
+    color:whitesmoke;
+}
+
+.footer{
+    color: whitesmoke;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
